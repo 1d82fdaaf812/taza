@@ -1,0 +1,1 @@
+export { TazaService } from './taza/taza';
