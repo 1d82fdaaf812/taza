@@ -5,8 +5,11 @@ export class TazaService {
 
   store = {};
 
-  do(key = '0', value = {}) {
-    this.store[key] = value;
+  do(key = '0', value: Object) {
+    if (this.store[key] === undefined) {
+      this.store[key] = value || {};
+    }
+
     return this.store[key];
   }
 
