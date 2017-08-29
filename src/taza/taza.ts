@@ -5,8 +5,9 @@ export class TazaService {
 
   store = {};
 
-  constructor(key = '0', value: Object) {
-    value ? this.store[key] = value : this.store[key];
+  do(key = '0', value = {}) {
+    this.store[key] = value;
+    return this.store[key];
   }
 
 }

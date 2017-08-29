@@ -1,10 +1,9 @@
 # Taza
-Key/Value Object Store
+Key/Value Object Store. Safe or empty by design.
 
 ## API
-### TazaService('key')
-Returns the stored value or a new Object.
+### TazaService.do('key')
+Returns stored value or empty object.
 
-### TazaService('key', value)
-Saves the value in with the key.
-
+### TazaService.do('key', value)
+Saves and gets the value reference.
