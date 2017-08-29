@@ -5,7 +5,7 @@ export class TazaService {
 
   store = {};
 
-  do(key = '0', value: Object) {
+  do(key = '0', value = undefined) {
     if (this.store[key] === undefined) {
       this.store[key] = value || {};
     }
