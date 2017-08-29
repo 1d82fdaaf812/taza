@@ -1,6 +1,6 @@
 {
   "name": "@pomada/taza",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Key/Value Object Store",
   "main": "index.js",
   "scripts": {
