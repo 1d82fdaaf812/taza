@@ -8,7 +8,7 @@ Returns stored value or empty object.
 ### TazaService.do('key', value)
 Saves and gets the value reference.
 
-### Install
+## Usage
 ````
 import { TazaService } from '@pomada/taza';
 
